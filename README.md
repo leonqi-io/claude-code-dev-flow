@@ -1,4 +1,4 @@
-# claude-code-dev-flow: write a ticket in the evening, let a local model implement it overnight
+# Claude Code on a local model — unattended workflow
 
 Claude Code + a local 27B model (Qwen 3.8 via Ollama, set up per [claude-code-ollama-guide](https://github.com/leonqi-io/claude-code-ollama-guide)) turning one scoped ticket into a diff for you to review in the morning. You write and approve the ticket; the model plans, writes the tests, shows them red, implements to green and reports — or stops and says why — in one session, with no gate that waits for a person; you review in the morning.
 
