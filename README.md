@@ -112,6 +112,6 @@ What this repo ships is the unit: one ticket, one unattended session, one diff. 
 | [`.claude/commands/continue-developing.md`](.claude/commands/continue-developing.md) | Slash command: resume from an existing plan record in a fresh session, never re-plan |
 | [`.claude/hooks/no_script_writes.py`](.claude/hooks/no_script_writes.py) | PreToolUse hook on Bash: blocks file writes done via scripts |
 | [`.claude/settings.json`](.claude/settings.json) | Wires the hook |
-| [`scripts/fix_indent.py`](scripts/fix_indent.py) | The one sanctioned script write: repairs off-by-one indentation, ast-validated |
+| [`scripts/fix_indent.py`](scripts/fix_indent.py) | The one sanctioned script write: repairs off-by-one indentation, ast-validated. Python only — in other languages the formatter does this |
 
 MIT licensed. If one of these rules does not hold on your setup, that is worth an issue.
