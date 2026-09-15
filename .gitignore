@@ -1,0 +1,12 @@
+# Claude Code per-user local settings (permissions, allowlists) — never commit
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
